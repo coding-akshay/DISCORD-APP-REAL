@@ -4,6 +4,7 @@ import Menubar from './layout-component/Menubar'
 import Friends from './layout-component/content'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 
+
 function App() {
   return (
     <Router>
