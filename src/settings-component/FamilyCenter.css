@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2C2F33;
+    color: #FFF;
+    font-family: 'gg sans', 'Arial', sans-serif;
+  }
+  
+  .contuiner {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+.nav{ 
+  width: 700px;
+height: 40px;
+  padding: 50px;
+  margin-left: 50px;
+}
+ul.nav {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    /* background-color: #2C2F33; */
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    padding: 10px;
+    color: #b9bbbe;
+    cursor: pointer;
+    position: relative;
+    font-family: 'gg sans', 'Arial', sans-serif;
+  }
+  
+  /* Underline that appears when active */
+  .nav-item.active {
+    color: #FFF; /* Active item font color */
+  }
+  
+  .nav-item.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #7289DA; /* The color of the underline */
+  }
+  
+  
+  .nav-item:hover {
+    color: #FFF;
+  }
+  
+
+  header {
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    margin-top: 40px;
+  margin-left: 50px;
+
+  }
+  .intro-box {
+    background-color: #2a2d31;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative; /* Enable positioning for child elements */
+    text-align: left;
+    width: 700px;
+    height: 250px;
+  }
+  
+  .intro-box h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .intro-box p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+
+    color:
+oklab(0.686679 -0.00398019 -0.0150182)
+   /* color: #8f959e ; */
+  }
+  .intro-box span{
+    color: #7289DA;
+  }
+  .intro-box button {
+    background-color: #5965e2;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .intro-box button:hover{
+    background-color: #5360f1;
+
+  }
+
+  /* Only the image is positioned to the right */
+  .intro-box img {
+    width: 200px; /* Adjust the size of the image */
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Move the image to the right side */
+    transform: translateY(-50%); /* Vertically center the image */
+  }
+  
+  .features {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 19px;
+    margin-top: 10px;
+    width: 1000px;
+    height: 250px;
+  }
+  
+  .feature-box {
+    background-color: #2a2d31;
+    padding: 27px;
+    border-radius: 8px;
+    text-align: center;
+    width: 22%;
+
+  }
+  
+  .feature-box svg {
+    width: 44px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: #404244;
+    border-radius: 50px;
+    height: 44px;
+    padding: 10px;
+  }
+  
+  .feature-box h2 {
+    font-size: 16px;
+    font-family :
+"gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Symbols";
+font-weight:
+700;
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .feature-box p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family:
+"gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Symbols";
+color:
+oklab(0.686679 -0.00398019 -0.0150182);
+text-align: start;
+  }
+
+  .info-box {
+    background-color: #2a2d31;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px ;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    color: #fff;
+     width: 720px;
+     margin-bottom: 80px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 15px;
+    color: #b9bbbe;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .info-box ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .info-box ul li {
+    font-size: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 45px;
+    line-height: 1.3;
+    color: #fff;
+  }
+  
+  .info-box ul li .small-text {
+    font-size: 13px;
+    color: #b9bbbe;
+  }
+  
+  .info-box .icon-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #40444b;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .info-box strong {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+
+.discord-info {
+  width: 700px;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #23272a;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px 0px 0px 50px;
+}
+
+.content {
+  width: 60%;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.content h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.content ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 40px;
+}
+
+.content ul li {
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.image-container {
+  width: 35%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+li span{
+  background-color: #37537d;
+  border-radius: 90px;
+  padding: 15px;
+   margin-bottom: -30px;
+}
+li p{
+  margin-left: 50px;
+}
+
+/* //////////////////////////////////////////////////////// */
+
+
+.settings-container {
+  width: 700px;
+  height: 300px;
+  /* background-color: #23272a; */
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #ffffff;
+  margin: 50px 0px 0px 50px;
+  line-height: 30px;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.setting-text h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.setting-text p {
+  font-size: 12px;
+  color: #b9bbbe;
+}
+
+.toggle-switch {
+  position: relative;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  display: block;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.ball {
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.checkbox:checked + .label {
+  background-color: #43b581;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(20px);
+} 
