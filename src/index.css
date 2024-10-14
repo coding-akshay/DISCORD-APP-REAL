@@ -11,7 +11,7 @@
     display: flex;
     /* background-color: rgb(35, 33, 33); */
   }
-  
+ 
   .sidebar{
     height: 100%;
     width: 5%;
@@ -113,6 +113,11 @@
   .img{
     height: 30px;
     width: 30px;
+  }
+  .dm{
+    height: 100vh;
+    width: 100vw;
+    display: flex;  
   }
   .menubar{
     height: 100%;
@@ -242,7 +247,7 @@
   }
   .friends{
     height: 100%;
-    width: 80%;
+    width: 85%;
     background-color: #313338;
   }
   
