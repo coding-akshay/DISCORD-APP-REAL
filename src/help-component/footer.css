@@ -1,0 +1,102 @@
+footer{
+    width: 100%;
+    height: 72%;
+    background-color: rgb(18,19,21);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 55%;
+    border-bottom: 1px solid rgb(60, 59, 59);
+}
+.footerbtn{
+    background-color: rgb(59,165,92);
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    margin: 50px 0;
+    width: 280px;
+    height: 45px;
+    border: 0;
+    padding: 0;
+}
+.apps{
+    background-image: url(/src/assets/help-images/bgApps.png);
+    background-repeat: no-repeat;
+    background-size: 910px 300px;
+    width: 914px;
+    height: 165px;
+    position: relative;
+    display: flex;
+    position: relative;
+}
+.appsImg{
+    position: absolute;
+    opacity: 0.6;
+    top: 70px;
+}
+.appsImg:hover{
+    opacity: 2;
+}
+.browserImg{
+    left: 100px;
+}
+.androidImg{
+    top: 100px;
+    left: 425px;
+}
+.iosImg{
+    top: 100px;
+    left: 530px;
+}
+.windowsImg{
+    left: 700px;
+}
+.osxImg{
+    left: 770px;
+}
+.footerSec{
+    width: 70%;
+    height: 45%;
+    display: flex;
+    padding: 50px;
+}
+.footerLink1, .footerLink2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 210px;
+}
+.footerLink1 a, 
+.footerLink2 a{
+    color: white;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 2.3;
+    text-decoration: none;
+}
+.footerLink1 a:hover{
+    text-decoration: underline;
+} 
+.footerLink2 a:hover{
+    text-decoration: underline;
+}
+.footerLink2{
+    margin-left: 310px;
+}
+.hire{
+    color: green;
+}
+.terms{
+    color: rgb(78,79,80);
+}
