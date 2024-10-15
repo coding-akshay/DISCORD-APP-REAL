@@ -6,6 +6,7 @@ import glogo from '/src/assets/layout-images/graylogo.jpg'
 import grlogo from '/src/assets/layout-images/greenlogo.jpg'
 import menu from '/src/assets/layout-images/icons8-menu-vertical-30.png'
 import message from '/src/assets/layout-images/icons8-speech-bubble-50.png'
+import Friends from './content'
 export default function All() {
   return (
     <div className='content'>

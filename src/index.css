@@ -253,12 +253,14 @@
   
   .navbar{
     height: 7%;
-    width: 100%;
+    width: 80%;
     background-color: #313338;
     border-bottom: 1px solid #1e1f22 ;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
   }
   .navbar_left{
     height: 100%;
@@ -268,6 +270,7 @@
     list-style-type: none;
     color: #adb8bd;
     justify-content: space-around;
+    flex-grow: 1;
   }
   .navbar_left_item1{
     height: 50%;

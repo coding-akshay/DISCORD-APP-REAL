@@ -6,7 +6,6 @@ import Friends from './content'
 export default function Dm() {
   return (
    <div className='dm'>
-   
        <Menubar />
        <Friends/> 
    </div>
