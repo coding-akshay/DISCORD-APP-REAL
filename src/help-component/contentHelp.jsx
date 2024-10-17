@@ -14,7 +14,7 @@ import bugs from '/src/assets/help-images/bugs.svg'
 import developer from '/src/assets/help-images/developer.svg'
 import twitter from '/src/assets/help-images/twitter.svg'
 
-function Content() {
+function ContentHelp() {
   const card = [
     { id: 1, heading: "Announcements", para: "We've got our ear to the ground.Here's what you need to know", url: announce },
     { id: 2, heading: "Discord Basics", para: "Start off on the right foot! Not the left one!", url: discordbasics },
@@ -36,7 +36,7 @@ function Content() {
 
 
   return (
-    <div className="content">
+    <div className="contenthelp">
       <section className="intro">
         <h1 className="introHeading">Need help? We've got your back.</h1>
         <p className="introPara">From account settings to permissions, find help for everything Discord<br />
@@ -73,4 +73,4 @@ function Content() {
   )
 }
 
-export default Content
+export default ContentHelp
