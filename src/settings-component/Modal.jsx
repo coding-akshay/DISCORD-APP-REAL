@@ -3,25 +3,19 @@ import { useState } from 'react';
 
 const Modal = ({onclose}) => {
     const [Cards, setCards] = useState([
-        { item: 'src/assets/Paypal-removebg-preview.png' },
-        { item: 'src/assets/download-removebg-preview.png' },
-        { item: 'src/assets/png-clipart-clay-os-6-a-macos-icon-steam-steam-logo-thumbnail-removebg-preview.png' },
-        { item: 'src/assets/png-transparent-tiktok-social-media-logos-brands-icon-thumbnail-removebg-preview.png' },
-        { item: 'src/assets/images-removebg-preview (1).png' },
-        { item: 'src/assets/images-removebg-preview.png' },
-        { item: 'src/assets/download__1_-removebg-preview.png' },
-        { item: 'src/assets/images (1).png' },
-        { item: 'src/assets/download__2_-removebg-preview.png' },
-        { item: 'src/assets/Paypal-removebg-preview.png' },
-        { item: 'src/assets/download-removebg-preview.png' },
-        { item: 'src/assets/png-clipart-clay-os-6-a-macos-icon-steam-steam-logo-thumbnail-removebg-preview.png' },
-        // { item: 'src/assets/png-transparent-tiktok-social-media-logos-brands-icon-thumbnail-removebg-preview.png' },
-        // { item: 'src/assets/images-removebg-preview (1).png' },
-        // { item: 'src/assets/images-removebg-preview.png' },
-        // { item: 'src/assets/download__1_-removebg-preview.png' },
-        // { item: 'src/assets/images (1).png' },
-        // { item: 'src/assets/download__2_-removebg-preview.png' },
-        { item: 'src/assets/download__3_-removebg-preview.png' }
+        { item: 'DISCORD-APP-REAL/src/assets/Settings-images/Paypal-removebg-preview.png' },
+        { item: 'DISCORD-APP-REAL/src/assets/Settings-images/download-removebg-preview.png' },
+        { item: 'DISCORD-APP-REAL/src/assets/Settings-images/png-clipart-clay-os-6-a-macos-icon-steam-steam-logo-thumbnail-removebg-preview.png' },
+        { item: 'DISCORD-APP-REAL/src/assets/Settings-images/png-transparent-tiktok-social-media-logos-brands-icon-thumbnail-removebg-preview.png' },
+        { item: 'DISCORD-APP-REAL/src/assets/Settings-images/images-removebg-preview (1).png' },
+        { item: 'DISCORD-APP-REAL/src/assets/Settings-images/images-removebg-preview.png' },
+        { item: 'DISCORD-APP-REAL/src/assets/Settings-images/download__1_-removebg-preview.png' },
+        { item: 'DISCORD-APP-REAL/src/assets/Settings-images/images (1).png' },
+        { item: 'DISCORD-APP-REAL/src/assets/Settings-images/download__2_-removebg-preview.png' },
+        { item: 'DISCORD-APP-REAL/src/assets/Settings-images/Paypal-removebg-preview.png' },
+        { item: 'DISCORD-APP-REAL/src/assets/download-removebg-preview.png' },
+        { item: 'DISCORD-APP-REAL/src/assets/png-clipart-clay-os-6-a-macos-icon-steam-steam-logo-thumbnail-removebg-preview.png' },
+        { item: 'DISCORD-APP-REAL/src/assets/download__3_-removebg-preview.png' }
       ]);
   return (
     <>
