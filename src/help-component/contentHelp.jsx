@@ -2,7 +2,7 @@ import React from "react";
 import './content.css'
 import iconhelp from '/src/assets/help-images/icons-help.png'
 import announce from '/src/assets/help-images/announcement.svg'
-import discordbasics from '/src/assets/help-images/discordbasics1.svg'
+// import discordbasics from '/src/assets/help-images/discordbasics1.svg'
 import accountSettings from '/src/assets/help-images/accountSettings.svg'
 import serverSettings from '/src/assets/help-images/serverSettings.svg'
 import appsActivities from '/src/assets/help-images/appsActivities.svg'
@@ -17,7 +17,7 @@ import twitter from '/src/assets/help-images/twitter.svg'
 function ContentHelp() {
   const card = [
     { id: 1, heading: "Announcements", para: "We've got our ear to the ground.Here's what you need to know", url: announce },
-    { id: 2, heading: "Discord Basics", para: "Start off on the right foot! Not the left one!", url: discordbasics },
+    // { id: 2, heading: "Discord Basics", para: "Start off on the right foot! Not the left one!", url: discordbasics },
     { id: 3, heading: "Announcement", para: "You're a special snowflake and so is your account", url: accountSettings },
     { id: 4, heading: "Server Settings", para: "Almost as exciting as interior decorating", url: serverSettings },
     { id: 5, heading: "Apps Activities", para: "Bringing people together from all around the globe (and occasionally Mars).", url: appsActivities },
