@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
-import Close from '/src/assets/Close.png'
-import windows from '/src/assets/windows.svg'
-import linux from '/src/assets/linux.svg'
-import apple from '/src/assets/apple.svg'
-import android from '/src/assets/android.svg'
+import Close from '/src/assets/modal-images/Close.png'
+import windows from '/src/assets/modal-images/windows.svg'
+import linux from '/src/assets/modal-images/linux.svg'
+import apple from '/src/assets/modal-images/apple.svg'
+import android from '/src/assets/modal-images/android.svg'
 
 function Downloadapp() {
     // State to track if the component is visible

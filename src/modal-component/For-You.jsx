@@ -1,5 +1,5 @@
 import React from 'react'
-import Foryouimage from '/src/assets/Foryou-image.svg'
+import Foryouimage from '/src/assets/modal-images/Foryou-image.svg'
 
 const ForYou = () => {
   return (
