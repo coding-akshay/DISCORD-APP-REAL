@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './Settings.css'
 import Tabsone from './Tabs one'
 import Tabstwo from './Tabs two'
 import Friendsrequest from './Friendsrequest'
@@ -11,7 +11,7 @@ import FamilyCenter from './FamilyCenterMain'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import FamilyCenterMain from './component/FamilyCenterMain'
 
-function App() {
+function Settings() {
 
   return (
     <Router>
@@ -35,4 +35,4 @@ function App() {
   )
 }
 
-export default App
+export default Settings
