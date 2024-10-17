@@ -7,7 +7,7 @@ import Downloadapp from './Components/Download-app';
 import ProfileBar from './Components/ProfileBar';
 
 
-function App() {
+function modal() {
   const [openDM, setOpenDM] = useState(false);
   const [openInbox, setOpenInbox] = useState(false);
   const [openServer, setOpenServer] = useState(false);
@@ -85,4 +85,4 @@ function App() {
   );
 }
 
-export default App;
+export default modal;
