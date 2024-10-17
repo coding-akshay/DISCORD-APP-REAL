@@ -1,6 +1,8 @@
 import friend from '/src/assets/layout-images/friends.png'
 import shop from '/src/assets/layout-images/icons8-shop-48.png'
 
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
 import mic from '/src/assets/layout-images/icons8-microphone-25.png'
 import deafen from '/src/assets/layout-images/icons8-airpods-pro-max-24.png'
 import settings from '/src/assets/layout-images/icons8-settings-50.png'
@@ -34,10 +36,11 @@ function Menubar(){
         </div>
         <div className="bottom_bar">
             <li className='circle'><img className='img3' src={logo} alt="" /></li>
-            <li>Astrobyte <br /> <span>Online</span></li>
+            <li>Astrobyte <br /> online
+             </li>
             <li><img className='img4' src={mic} alt="" /></li>
             <li><img  className='img4' src={deafen} alt="" /></li>
-            <li><img className='img4' src={settings} alt="" /></li>
+           <Link to={'/settings'}> <li><img className='img4' src={settings} alt="" /></li></Link>
         </div>
         </div>
     )

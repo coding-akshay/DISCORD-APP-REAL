@@ -14,7 +14,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function Settings() {
 
   return (
-    <Router>
+   
       <div className='conteiner'>
         <div className="tabs-one">
           <Tabsone />
@@ -31,7 +31,7 @@ function Settings() {
           </Routes>
         </div>
       </div>
-    </Router>
+    
   )
 }
 

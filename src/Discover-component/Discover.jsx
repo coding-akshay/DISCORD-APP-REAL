@@ -6,7 +6,6 @@ import '../Discover-component/discover.css'
 function Discover() {
   return (
     <div className='discover'>
-
       
     </div>
   )

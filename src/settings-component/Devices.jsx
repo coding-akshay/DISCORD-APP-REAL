@@ -1,5 +1,5 @@
 import React from 'react'
-import Underline from './Underline'
+// import Underline from './Underline'
 
 const Devices = () => {
   return (
@@ -40,7 +40,7 @@ const Devices = () => {
         </div>
         </div>
        
-       <Underline/>
+       {/* <Underline/> */}
 
        <div className="log-out-of-all-now">
         <span>LOG OUT OF ALL NOW DEVICES</span>
