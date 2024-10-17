@@ -1,9 +1,9 @@
 import React from 'react'
-import Profile from '/src/assets/ProfileStatus.png'
-import Edit from '/src/assets/edit-Icon.svg'
-import Online from '/src/assets/Online.svg'
-import Arrow from '/src/assets/Rigth-Arrow.svg'
-import SwitchAccount from '/src/assets/profile-boy-icon.svg'
+import Profile from '/src/assets/modal-images/ProfileStatus.png'
+import Edit from '/src/assets/modal-images/edit-Icon.svg'
+import Online from '/src/assets/modal-images/Online.svg'
+import Arrow from '/src/assets/modal-images/Rigth-Arrow.svg'
+import SwitchAccount from '/src/assets/modal-images/profile-boy-icon.svg'
 
 function ProfileBar() {
   return (
