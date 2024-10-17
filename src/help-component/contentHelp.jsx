@@ -2,7 +2,7 @@ import React from "react";
 import './content.css'
 import iconhelp from '/src/assets/help-images/icons-help.png'
 import announce from '/src/assets/help-images/announcement.svg'
-import discordbasics from '/src/assets/help-images/discordbasics.svg'
+import discordbasics from '/src/assets/help-images/discordbasics1.svg'
 import accountSettings from '/src/assets/help-images/accountSettings.svg'
 import serverSettings from '/src/assets/help-images/serverSettings.svg'
 import appsActivities from '/src/assets/help-images/appsActivities.svg'
