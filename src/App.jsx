@@ -8,8 +8,7 @@ function App() {
   return (
     <Router>
     <div className='main'>
-      <Sidebar /> 
-      <Dm />
+      {/* <Dm /> */}
       <RouterComponent />
     </div>
   </Router>

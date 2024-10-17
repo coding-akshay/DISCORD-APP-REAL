@@ -24,9 +24,9 @@ function Friends() {
         <div className="navbar_right">
           <li className='navbar_right_item'><img className="img3" src={message} alt="" /></li>
           <li><img className="img3" src={inbox} alt="" /></li>
-          <li><img className="img3" src={help} alt="" /></li>
+        <Link to={'/help'}><li><img className="img3" src={help} alt="" /></li></Link> 
         </div>
-      </div>
+      </div>  
     </div>
   )
 }
