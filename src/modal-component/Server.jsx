@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import Arrow from'/src/assets/Rigth-Arrow.svg'
+import Arrow from'/src/assets/modal-images/Rigth-Arrow.svg'
 
 function Server() {
     const[List, setList]=useState([

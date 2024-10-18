@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 
-function DM() {
+function Gm() {
     const[List, setList]=useState([
         {Name:'Asifpashraf'},
         {Name:'Sameeh'},
@@ -43,4 +43,4 @@ function DM() {
   )
 }
 
-export default DM
+export default Gm

@@ -1,13 +1,13 @@
 import { useState, useEffect, useRef } from 'react'
 import './modal.css'
-import DM from './Components/DM'
-import Inbox from './Components/Inbox';
-import Server from './Components/Server';
-import Downloadapp from './Components/Download-app';
-import ProfileBar from './Components/ProfileBar';
+import Inbox from './Inbox';
+import Server from './Server';
+import Downloadapp from './Download-app';
+import ProfileBar from './ProfileBar';
+import Gm from './Gm';
 
 
-function modal() {
+function Modal() {
   const [openDM, setOpenDM] = useState(false);
   const [openInbox, setOpenInbox] = useState(false);
   const [openServer, setOpenServer] = useState(false);
@@ -55,7 +55,7 @@ function modal() {
       <button className="DM-Button" onClick={() => setOpenDM(true)}>
         DM
       </button>
-      {openDM && <div ref={dmRef}><DM /></div>}
+      {openDM && <div ref={dmRef}><Gm /></div>}
 
       <button className="Inbox" onClick={() => setOpenInbox(true)}>
         Inbox
@@ -85,4 +85,4 @@ function modal() {
   );
 }
 
-export default modal;
+export default Modal;
