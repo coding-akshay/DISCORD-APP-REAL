@@ -1,0 +1,124 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensures the modal is on top of everything else */
+  }
+  
+  .modal-box {
+    background: #fff;
+    border-radius: 10px;
+    width:450px;
+    height: 360px;
+    border-radius: 6px;
+    overflow: hidden;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Symbols";
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: end;
+    align-items:self-start;
+    width: 100%;
+    height: 150px;
+    background-color:blueviolet;
+    background-image: url(/src/assets/shop-images/closebg.png);
+  }
+  
+  .modal-close {  
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+   width: 100%;
+   height: 145px;
+   background-color: rgb(186, 115, 39);
+  }
+  
+  .modal-footer {
+    width: 100%;
+    height: 65px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:230px ;
+  }
+  
+  .modal-close-btn {
+    width: 25px;
+    height: 25px;
+    background: rgb(30, 29, 29);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-right: 16px;
+    border: none;
+  }
+  .modal-close-btn  img{
+    width: 16px;
+    height: 16px;
+  }
+  
+  .modal-close-btn:hover {
+    background: black;
+  }
+  .modal-body h1{
+    font-weight:800;
+    font-size: 12px;
+    font-style: normal;
+    padding-top: 15px;
+    margin-left: 20px;
+  }
+  .card-pal{
+    width: 100%;
+    height: 38px;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  .payment-card{
+    width: 202px;
+    height: 38px;
+    background-color: rgb(166, 166, 188);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18px;
+    border-radius: 5px;
+    
+  }
+  .pay-pal{
+    width: 202px;
+    height: 38px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .autofill{
+    width: 202px;
+    height: 38px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 18px;
+    margin-top: 5px;
+  }
