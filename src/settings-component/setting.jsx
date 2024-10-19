@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './Settings.css'
-import Tabsone from './Tabs one'
-import Tabstwo from './Tabs two'
+import Tabsone from './TabsOne'
+import Tabstwo from './TabsTwo'
 import Friendsrequest from './Friendsrequest'
 import Clips from './Clips'
 import Conection from './Conection'
@@ -36,3 +36,7 @@ function Settings() {
 }
 
 export default Settings
+
+
+
+

@@ -10,7 +10,7 @@ const Tabstwo = () => {
         <div className='crad-inner-first'>
         </div>
         <div className='crad-inner-second'>
-       <img src="src/assets/discord-logo-7A1EC3216C-seeklogo.com.png" alt="" />
+       <img src="src/assets/Settings-images/discord-logo-7A1EC3216C-seeklogo.com.png" alt="discord" />
         <h2>sameeh</h2>
         </div>
         <div className='edit-profile'>
@@ -77,7 +77,7 @@ const Tabstwo = () => {
       </div>
       </div>
       <div className="ship-model-image">
-        <img src="src/assets/PHOTO-2024-09-01-13-37-28-removebg-preview.png" alt="" />
+        <img src="src/assets/Settings-images/PHOTO-2024-09-01-13-37-28-removebg-preview.png" alt="" />
       </div>
       <div className="esc-back-btn">
       <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24"><path fill="#b5bac1" d="M17.3 18.7a1 1 0 0 0 1.4-1.4L13.42 12l5.3-5.3a1 1 0 0 0-1.42-1.4L12 10.58l-5.3-5.3a1 1 0 0 0-1.4 1.42L10.58 12l-5.3 5.3a1 1 0 1 0 1.42 1.4L12 13.42l5.3 5.3Z" class=""></path></svg>

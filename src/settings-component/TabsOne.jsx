@@ -1,18 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import Tabstwo from './component/Tabs two'
-// import Friendsrequest from './component/Friendsrequest'
-// import Clips from './component/Clips'
-// import Conection from './component/Conection'
-// import Devices from './component/Devices'
 
 const Tabsone = () => {
   return (
     <div className='tabsone-item-one'>
-        <input type="text" name="" id="" placeholder='Search        ' />
+        <input type="text" name="" id="" placeholder='Search' />
         <div className='search-icon-parent'>
         <div className='search-icon'>
-         <img src="src/assets/search.png" alt="google" />
+         <img src="src/assets/Settings-images/search.png" alt="google" />
         </div>
         </div>
         <label htmlFor="usersetting">user setting</label>

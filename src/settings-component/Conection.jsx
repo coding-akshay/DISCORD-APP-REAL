@@ -3,7 +3,7 @@ import Modal from './Modal';
 
 const Conection = () => {
   const [Cards, setCards] = useState([
-    { item: 'DISCORD-APP-REAL/src/assets/Settings-images/Paypal-removebg-preview.png' },
+    { item: 'src/assets/Settings-images/Paypal-removebg-preview.png' },
     { item: 'DISCORD-APP-REAL/src/assets/Settings-images/download-removebg-preview.png' },
     { item: 'DISCORD-APP-REAL/src/assets/Settings-images/png-clipart-clay-os-6-a-macos-icon-steam-steam-logo-thumbnail-removebg-preview.png' },
     { item: 'DISCORD-APP-REAL/src/assets/Settings-images/png-transparent-tiktok-social-media-logos-brands-icon-thumbnail-removebg-preview.png' },
