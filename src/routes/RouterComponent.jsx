@@ -10,6 +10,7 @@ import Settings from '../settings-component/setting';
 import Discover from '../Discover-component/Discover';
 import Shop from '../Shop-Component/Shop';
 import Nitroo from '../nitro-componet/nitro-main';
+import Chat from '../chat-component/chat';
 
 export default function RouterComponent() {
   return (
@@ -22,6 +23,7 @@ export default function RouterComponent() {
          <Route path='/discover' element={<Discover />}/> 
          <Route path='/shop' element={<Shop />}/> 
          <Route path='/nitro' element={<Nitroo/>}/>
+         <Route path='/chat' element={<Chat />}/>
          {/* <Route path='/all' element={<All/>}/>
          <Route path='/pending' element={<Pending/>}/>
          <Route path='/blocked' element={<Blocked />}/> */}
