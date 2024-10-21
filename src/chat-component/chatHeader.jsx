@@ -1,8 +1,8 @@
 import React from 'react'
 import './chatHeader.css'
-import chatinbox from '/src/help-images/inboxChat_icon.png'
-import chatsearch from '/src/help-images/chatSearch_icon.png'
-import discord from '/src/help-images/discordPro.png'
+import chatinbox from '/src/assets/help-images/inboxChat_icon.png'
+import chatsearch from '/src/assets/help-images/chatSearch_icon.png'
+import discord from '/src/assets/help-images/discordPro.png'
 
 
 function ChatHeader() {

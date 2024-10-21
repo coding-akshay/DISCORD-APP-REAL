@@ -1,14 +1,14 @@
 import React from 'react'
 import './chatContent.css'
-import discord from '/src/help-images/discordPro.png'
-import astrobyte from '/src/help-images/astrobyteLogo.jpg'
-import chatgif from '/src/help-images/chatgif.gif'
-import addicon from '/src/help-images/add_icon.png'
-import gift from '/src/help-images/gift_icon.png'
-import gif from '/src/help-images/gif_icon.png'
-import happygif from '/src/help-images/happygif_icon.png'
-import happyicon from '/src/help-images/happy_icon.png'
-import groupicon from '/src/help-images/appsCommands.png'
+import discord from '/src/assets/help-images/discordPro.png'
+import astrobyte from '/src/assets/help-images/astrobyteLogo.jpg'
+import chatgif from '/src/assets/help-images/chatgif.gif'
+import addicon from '/src/assets/help-images/add_icon.png'
+import gift from '/src/assets/help-images/gift_icon.png'
+import gif from '/src/assets/help-images/gif_icon.png'
+import happygif from '/src/assets/help-images/happygif_icon.png'
+import happyicon from '/src/assets/help-images/happy_icon.png'
+import groupicon from '/src/assets/help-images/appsCommands.png'
 
 
 function ChatContent() {

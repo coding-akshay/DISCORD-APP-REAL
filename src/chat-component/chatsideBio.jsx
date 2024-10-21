@@ -4,7 +4,7 @@ import './chatsideBio.css'
 import discord from '/src/assets/help-images/discordPro.png'
 import checked from '/src/assets/help-images/profileChecked.png'
 import more from '/src/assets/help-images/profileMore.png'
-import greater from '/src/assets/help-images/greaterDrop_icon.png'
+import greater from '/src/assets/help-images/greaterthan_icon.png'
 import astrobyte from '/src/assets/help-images/astrobyteLogo.jpg'
 
 function SideBio() {
