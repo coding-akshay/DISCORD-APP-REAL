@@ -1,11 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
 import './chatsideBio.css'
-import discord from '/src/help-images/discordPro.png'
-import checked from '/src/help-images/profileChecked.png'
-import more from '/src/help-images/profileMore.png'
-import greater from '/src/help-images/greaterDrop_icon.png'
-import astrobyte from '/src/help-images/astrobyteLogo.jpg'
+import discord from '/src/assets/help-images/discordPro.png'
+import checked from '/src/assets/help-images/profileChecked.png'
+import more from '/src/assets/help-images/profileMore.png'
+import greater from '/src/assets/help-images/greaterDrop_icon.png'
+import astrobyte from '/src/assets/help-images/astrobyteLogo.jpg'
 
 function SideBio() {
     const [showServer, setShowServer] = useState(false);
