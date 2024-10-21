@@ -47,7 +47,7 @@ function ContentHelp() {
       <section className="cardSection">
         <div className='box'>
           {card.map(item => (
-            <div className='card'>
+            <div className='helpcard'>
               <img className="cardimg" src={item.url} alt="" />
               <h1 className="cardHead">{item.heading}</h1>
               <p className="line"></p>
@@ -60,7 +60,7 @@ function ContentHelp() {
        
       <div className="secBox">
       {secCard.map(item =>(
-        <div key={item.id} className='card'>
+        <div key={item.id} className='helpcard'>
           <img className="cardimg" src={item.url} alt="" />
           <h1 className="cardHead">{item.heading}</h1>
           <p className="line"></p>
