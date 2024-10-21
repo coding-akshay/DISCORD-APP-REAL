@@ -7,7 +7,7 @@ import { useState, useEffect, useRef } from 'react'
 import Inbox from '../modal-component/Inbox';
 import Gm from '../modal-component/Gm';
 import '/src/modal-component/modal.css'
-// import Online from './online';
+import Online from './online';
 // import All from './all';
 // import Blocked from './blocked';
 // import Pending from './pending';
@@ -78,7 +78,7 @@ function Friends() {
         <Link to={'/help'}><li><img className="img3" src={help} alt="" /></li></Link> 
         </div>
       </div>  
-     
+       <Online />
     </div>
   )
 }
