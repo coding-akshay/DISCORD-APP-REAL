@@ -161,7 +161,7 @@
 } 
 
 .happyicon-img:hover{
-    content: url(/src/help-images/emoji-icon.png);
+    content: url(/src/assets/help-images/emoji-icon.png);
 }
 @keyframes shake {
     20% {
