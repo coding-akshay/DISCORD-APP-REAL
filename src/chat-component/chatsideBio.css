@@ -1,0 +1,212 @@
+.bioSection {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(107, 101, 94);
+}
+
+.firstDiv {
+    width: 100%;
+    height: 20%;
+    background-color: blueviolet;
+}
+
+.firstdivImgs {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.checked {
+    width: 35px;
+    height: 35px;
+    background-color: #22385d;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.checkImg {
+    width: 22px;
+}
+
+.moreImg {
+    width: 18px;
+}
+
+.bioProfile-div {
+    width: 22%;
+    height: 62%;
+    background-color: blueviolet;
+    border: 6px solid black;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    z-index: 1;
+}
+
+.bioprofile {
+    width: 65px;
+}
+
+.online {
+    width: 16px;
+    height: 16px;
+    background-color: green;
+    border-radius: 50px;
+    border: 6px solid black;
+    position: absolute;
+    top: 65px;
+    left: 58px;
+}
+
+.secDiv {
+    width: 100%;
+    height: 72%;
+    background-color: rgb(34, 34, 34);
+    position: relative;
+}
+
+.secContentDiv {
+    height: 53%;
+    position: relative;
+    top: 40px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.memberDiv {
+    width: 85%;
+    background-color: rgb(16, 16, 16);
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.dropdown-container {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: rgb(16, 16, 16);
+    width: 85%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.dropdown-item {
+    margin-bottom: 10px;
+}
+
+.dropdown-item1 {
+    border-bottom: 1px solid gray;
+}
+
+.dropdown-header {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.greater{
+    width: 25px;
+}
+
+.dropdown-content {
+    padding: 7px;
+    display: flex;
+}
+
+.dropdiv {
+    display: flex;
+    align-items: center;
+}
+
+.dropAstro {
+    width: 40px;
+    border-radius: 10px;
+}
+
+.astroname {
+    margin-left: 10px;
+}
+
+.ulSec {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.li-List {
+    margin-bottom: 5px;
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.li-List:hover {
+    background-color: #23272a;
+}
+
+.profilePht-div1,
+.profilePht-div2,
+.profilePht-div3 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.profilePht-div1 {
+    background-color: green;
+}
+
+.profilePht-div2 {
+    background-color: red;
+}
+
+.profilePht-div3 {
+    background-color: blue;
+}
+
+.online1,
+.online2,
+.online3 {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 10px;
+    border: 3px solid black;
+    position: absolute;
+    top: 31px;
+    left: 33px;
+}
+
+.profile-pht1,
+.profile-pht2,
+.profile-pht3 {
+    width: 35px;
+}
+
+.thirdDiv {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    border-top: 1px solid rgb(113, 113, 113);
+}

@@ -1,0 +1,198 @@
+.container {
+    width: 100%;
+    height: 92.8%;
+    display: flex;
+    background-color: #303338;
+}
+
+.chat {
+    width: 71.7%;
+    height: 100%;
+    display: flex;
+}
+
+.contents {
+    width: 99%;
+    margin-left: 10px;
+}
+
+.topcontent {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.chatProfile-div {
+    width: 10%;
+    height: 23%;
+    background-color: blueviolet;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatprofile {
+    width: 70%;
+}
+
+.chatname {
+    font-size: xx-large;
+}
+
+.chatid {
+    font-size: x-large;
+    margin: 10px;
+}
+
+.chatP {
+    font-size: 17px;
+    margin: 10px;
+    color: rgb(174, 175, 176);
+}
+
+.astroLogo {
+    width: 35px;
+    border-radius: 50px;
+}
+
+.mutual {
+    color: rgb(174, 175, 176);
+}
+
+.dot {
+    width: 3px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: rgb(141, 139, 139);
+}
+
+.chatflex {
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.removeButton,
+.blockButton {
+    background-color: rgb(81, 80, 80);
+    padding: 8px 20px 8px 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 5px;
+}
+.removeButton:hover,
+.blockButton:hover{
+    background-color: rgb(106, 106, 106);
+}
+
+.bottomcontent {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.gif {
+    width: 160px;
+}
+
+.waveButton {
+    background-color: rgb(39, 39, 239);
+    border: none;
+    padding: 13px;
+    margin-left: 20px;
+    width: 205px;
+    border-radius: 5px;
+}
+
+.chatingroup {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chatinputDiv {
+    width: 90%;
+    background-color: #373a3f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.chatinput {
+    padding: 8px;
+    width: 73%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #373a3f;
+}
+
+.gift-img,
+.gif-img,
+.happygif-img{
+    width: 27px;
+}
+
+.happyicon-img {
+    width: 32px;
+}
+.gift-img:hover {
+    border: 5px solid; 
+    border-radius: 50px;
+    border-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-image-slice: 1; 
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+
+.gif-img:hover,
+.happygif-img:hover,
+.happyicon-img:hover{
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+} 
+
+.happyicon-img:hover{
+    content: url(/src/assets/help-images/emoji-icon.png);
+}
+@keyframes shake {
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+}
+
+.groupiconsDiv {
+    border-radius: 8px;
+    background-color: #373a3f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll {
+    width: 10px;
+    height: 89%;
+    margin-top: 5px;
+    background-color: rgb(48, 47, 47);
+    border-radius: 5px;
+}

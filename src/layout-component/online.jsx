@@ -6,6 +6,8 @@ import glogo from '/src/assets/layout-images/graylogo.jpg'
 import grlogo from '/src/assets/layout-images/greenlogo.jpg'
 import menu from '/src/assets/layout-images/icons8-menu-vertical-30.png'
 import message from '/src/assets/layout-images/icons8-speech-bubble-50.png'
+import { Link } from 'react-router-dom'
+//import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 export default function Online() {
   return (
     <div className='content'>
@@ -21,7 +23,7 @@ export default function Online() {
                     </div> 
                    </div>
                     <div className='section2'>
-                    <div className='circle'><img className='img4' src={message} alt="" /></div>
+                   <Link style={{ textDecoration: 'none' }} to={'/chat'}><div className='circle'><img className='img4' src={message} alt="" /></div></Link> 
                     <div className='circle'><img className='img4' src={menu} alt="" /></div>
                     </div>
                     
