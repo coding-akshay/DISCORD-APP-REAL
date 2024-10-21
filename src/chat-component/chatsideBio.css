@@ -57,7 +57,7 @@
     width: 65px;
 }
 
-.online {
+.chatonline {
     width: 16px;
     height: 16px;
     background-color: green;
@@ -76,7 +76,7 @@
 }
 
 .secContentDiv {
-    height: 53%;
+    height: 60%;
     position: relative;
     top: 40px;
     margin: 25px;
@@ -182,9 +182,9 @@
     background-color: blue;
 }
 
-.online1,
-.online2,
-.online3 {
+.chatonlines1,
+.chatonlines2,
+.chatonlines3 {
     width: 10px;
     height: 10px;
     background-color: green;
