@@ -1,10 +1,10 @@
 import React from 'react';
-import a from '..src\assets\nitro-images\img3.svg';
-import b from '..src\assets\nitro-images\top.svg';
-import c from '..src\assets\nitro-images\fly.svg';
-import d from '..src\assets\nitro-images\all.svg';
-import e from '..src\assets\nitro-images\rabit.svg';
-import f from '..src\assets\nitro-images\im3.png';
+import a from '/src/assets/nitro-images/img3.svg';
+import b from '/src/assets/nitro-images/top.svg';
+import c from '/src/assets/nitro-images/fly.svg';
+import d from '/src/assets/nitro-images/all.svg';
+import e from '/src/assets/nitro-images/rabit.svg';
+import f from '/src/assets/nitro-images/im3.png';
 
 function Part2() {
   const cardPart = [

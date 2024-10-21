@@ -9,18 +9,17 @@ import Plans from './plans';
 
 
 function Nitroo() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-     <div className="container">
-     <div className="main">
+     <div className="nitrocontainer">
+     <div className="nitromain">
   
   
      <Navbar/>
      <Frame/>
-     <Part2/>
-     <Plans/>
+     {/* <Part2/>
+     <Plans/> */}
 
 
      </div>

@@ -1,16 +1,13 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-.container {
-  overflow:hidden;
+
+.nitrocontainer {
+  /* overflow:hidden; */
   height:100%;
   width:100%;
   background-color:rgb(0, 168, 50);
   display: flex;
   justify-content: end;
 }
-.main {
+.nitromain{
   height:100%;
   width: 80%;
   background: #e20d0d;
