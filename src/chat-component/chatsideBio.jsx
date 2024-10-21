@@ -21,7 +21,7 @@ function SideBio() {
                 </div>
                 <div className='bioProfile-div'>
                 <img className='bioprofile' src={discord} alt="" />
-                <span className='online'></span>
+                <span className='chatonline'></span>
                 </div>
             </div>
             <div className='secDiv'>
@@ -58,15 +58,15 @@ function SideBio() {
                                 <div className="dropdown-content">
                                     <ul className='ulSec'>
                                         <li className='li-List'>
-                                            <div className='profilePht-div1'><img className='profile-pht1' src={discord} alt="" /><span className='online1'></span></div>
+                                            <div className='profilePht-div1'><img className='profile-pht1' src={discord} alt="" /><div className='chatonlines1'></div></div>
                                             <h4>noushida_p</h4>
                                         </li>
                                         <li className='li-List'>
-                                            <div className='profilePht-div2'><img className='profile-pht2' src={discord} alt="" /><span className='online2'></span></div>
+                                            <div className='profilePht-div2'><img className='profile-pht2' src={discord} alt="" /><div className='chatonlines2'></div></div>
                                             <h4>Sameeh</h4>
                                         </li>
                                         <li className='li-List'>
-                                            <div className='profilePht-div3'><img className='profile-pht3' src={discord} alt="" /><span className='online3'></span></div>
+                                            <div className='profilePht-div3'><img className='profile-pht3' src={discord} alt="" /><div className='chatonlines3'></div></div>
                                             <h4>Hasim Paroli</h4>
                                         </li>   
                                     </ul>
