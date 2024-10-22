@@ -1,4 +1,18 @@
 .discover{
     width: 80vw;
-    background-color: brown;
+    background-color: white;
+    display: flex;
+}
+.server-quests{
+    width: 18vw;
+    height: 100vh;
+    background-color: #2b2d31;
+}
+.game-servers{
+    place-content:center;
+    place-items: center;
+}
+.discover-text{
+    color: white;
+    font-size: 2rem;
 }
