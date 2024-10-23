@@ -10,11 +10,14 @@ function Plans() {
       </div>
       <div className='table-planig'>
       <table>
+ <thead>      
   <tr >
   <th><h2>Pricing and Features</h2></th>
   <th><img className='N-ni' src="    src\assets\nitro-images\Nitro.png" alt="" /></th>
   <th><img className='N-basic' src="    src\assets\nitro-images\N.png" alt="" /></th>
   </tr>
+  </thead> 
+  <tbody>
  <tr>
   <td>Price</td>
   <td>$2.99/month</td>
@@ -34,10 +37,9 @@ function Plans() {
   <td>Custom App Icons</td>
   <td><img src="    src\assets\nitro-images\icons8-tick-mark-24.png" alt="" /></td>
   <td><img src="    src\assets\nitro-images\icons8-tick-mark-24.png" alt="" /></td>
-  
-  <Ani/>
 
 </tr>
+<Ani/>
   <tr>
   <td>Super Reactions
   </td>
@@ -86,8 +88,10 @@ function Plans() {
   <td>  <img src="    src\assets\nitro-images\icons8-close-24.png" alt="" /></td>
   <td><img src="    src\assets\nitro-images\icons8-tick-mark-24.png" alt="" /></td>
   </tr>
+  </tbody>
 </table>
       </div>
+    
       <div className='frog-frame'>
          <img className='frog-img' src="    src\assets\nitro-images\frog.svg" alt="" />
       </div>

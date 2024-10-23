@@ -18,8 +18,8 @@ function Nitroo() {
   
      <Navbar/>
      <Frame/>
-     {/* <Part2/>
-     <Plans/> */}
+     <Part2/>
+     <Plans/>
 
 
      </div>
