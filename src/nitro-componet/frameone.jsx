@@ -28,8 +28,8 @@ function Frame() {
         </div>
 
 
-        <div className="cards">
-          <div className="card">
+        <div className="nitroocard">
+          <div className="card2">
             <h1>NITRO</h1>
             <h3>BASIC</h3>
             <p>$2.99/month</p>
@@ -42,7 +42,7 @@ function Frame() {
                   src="    src\assets\nitro-images\icons8-upload-24.png"
                   alt="Upload Icon"
                 />
-                <span>50 MB Uploads</span>
+                <span className='nitro-spa'>50 MB Uploads</span>
               </li>
               <li>
                 <img
@@ -50,83 +50,83 @@ function Frame() {
                   src="    src\assets\nitro-images\icons8-smile-48.png"
                   alt="Emoji Smile"
                 />
-                <span>Custom emoji anywhere</span>
+                <span className='nitro-spa'>Custom emoji anywhere</span>
               </li>
               <li>
                 <img
                   src="    src\assets\nitro-images\icons8-smiling-face-with-heart-24.png"
                   alt="Smiling Face with Heart"
                 />
-                <span>Unlimited Super Reactions</span>
+                <span className='nitro-spa'>Unlimited Super Reactions</span>
               </li>
               <li>
                 <img
                   src="    src\assets\nitro-images\white-nitro.png"
                   alt="Nitro Badge"
                 />
-                <span>Special Nitro badge on your profile</span>
+                <span className='nitro-spa'>Special Nitro badge on your profile</span>
               </li>
             </ul>
             <button className="sectionone" onClick={payment}>Subscribe</button>
           </div>
-
           <div className="card1">
-            <h1>NITRO</h1>
-            <p>
-              Try Nitro for 1 month on us. <br />
-               <h4>$9.99/month.</h4>
-            </p>
-            <br />
-            <img className='airo-space' src="    src\assets\nitro-images\airoplne.svg" alt="" />
-            <ul>
-              <li>
-                <img
-                  className="upload-icon"
-                  src="    src\assets\nitro-images\icons8-upload-24.png"
-                  alt="Upload Icon"
-                />
-                <span>500 MB Uploads</span>
-              </li>
-              <li>
-                <img
-                  className="emoji-smile"
-                  src="    src\assets\nitro-images\icons8-smile-48.png"
-                  alt="Emoji Smile"
-                />
-                <span>Custom emoji anywhere</span>
-              </li>
-              <li>
-                <img
-                  src="    src\assets\nitro-images\icons8-smiling-face-with-heart-24.png"
-                  alt="Smiling Face with Heart"
-                />
-                <span>Unlimited Super Reactions</span>
-              </li>
-              <li>
-                <img
-                  className="tv"
-                  src="    src\assets\nitro-images\icons8-tv-show-48.png"
-                  alt="HD Video Streaming"
-                />
-                <span>HD video streaming</span>
-              </li>
-              <li>
-                <img
-                  src="    src\assets\nitro-images\icons8-rubygems-a-package-manager-for-the-ruby-programming-language-24.png"
-                  alt="Server Boosts"
-                />
-                <span>2 Server Boosts</span>
-              </li>
-              <li>
-                <img
-                  src="    src\assets\nitro-images\icons8-name-24.png"
-                  alt="Custom Profile"
-                />
-                <span>Custom profile and more</span>
-              </li>
-            </ul>
-          <button className="sectiontwo" onClick={payment}>Subscribe</button>
-          </div>
+  <h1>NITRO</h1>
+  <p>
+    Try Nitro for 1 month on us. <br />
+  </p>
+  <h4>$9.99/month.</h4> {/* Moved outside of <p> */}
+  <br />
+  <img className='airo-space' src="    src\assets\nitro-images\airoplne.svg" alt="" />
+  <ul>
+    <li>
+      <img
+        className="upload-icon"
+        src="    src\assets\nitro-images\icons8-upload-24.png"
+        alt="Upload Icon"
+      />
+      <span className='nitro-spa'>500 MB Uploads</span>
+    </li>
+    <li>
+      <img
+        className="emoji-smile"
+        src="    src\assets\nitro-images\icons8-smile-48.png"
+        alt="Emoji Smile"
+      />
+      <span className='nitro-spa'>Custom emoji anywhere</span>
+    </li>
+    <li>
+      <img
+        src="    src\assets\nitro-images\icons8-smiling-face-with-heart-24.png"
+        alt="Smiling Face with Heart"
+      />
+      <span className='nitro-spa'>Unlimited Super Reactions</span>
+    </li>
+    <li>
+      <img
+        className="tv"
+        src="    src\assets\nitro-images\icons8-tv-show-48.png"
+        alt="HD Video Streaming"
+      />
+      <span className='nitro-spa'>HD video streaming</span>
+    </li>
+    <li>
+      <img
+        src="    src\assets\nitro-images\icons8-rubygems-a-package-manager-for-the-ruby-programming-language-24.png"
+        alt="Server Boosts"
+      />
+      <span className='nitro-spa'>2 Server Boosts</span>
+    </li>
+    <li>
+      <img
+        src="    src\assets\nitro-images\icons8-name-24.png"
+        alt="Custom Profile"
+      />
+      <span className='nitro-spa'>Custom profile and more</span>
+    </li>
+  </ul>
+  <button className="sectiontwo" onClick={payment}>Subscribe</button>
+</div>
+
 
 
           {isModalOpen && (

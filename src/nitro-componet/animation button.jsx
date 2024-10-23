@@ -7,20 +7,19 @@ function Ani() {
   useEffect(() => {
     // Function to handle the scroll event
     const handleScroll = () => {
-      const scrollPosition = window.pageYOffset; // Current scroll position from the top
-      const triggerPoint = 2500; // Change this value to the scroll position where the button should appear
+      const scrollPosition = window.pageYOffset; 
+      const triggerPoint = 2100; 
 
       if (scrollPosition > triggerPoint) {
         setShowButton(true);
       } else {
-        setShowButton(false); // Hide the button when the scroll position is above the trigger point
+        setShowButton(false); 
       }
     };
 
-    // Add the scroll event listener
+   
     window.addEventListener("scroll", handleScroll);
 
-    // Clean up the event listener when the component is unmounted
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -135,8 +134,7 @@ function Ani() {
               <li>
                 <img
                   className="emoji-smile"
-                  src="          src\assets\nitro-images\
-icons8-smile-48.png"
+                  src=" src\assets\nitro-images\icons8-smile-48.png"
                   alt="Emoji Smile"
                 />
                 <span>Custom emoji anywhere</span>

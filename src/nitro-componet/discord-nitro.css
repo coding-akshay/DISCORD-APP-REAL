@@ -1,14 +1,15 @@
 
 .nitrocontainer {
-  /* overflow:hidden; */
   height:100%;
   width:100%;
-  background-color:rgb(0, 168, 50);
+  /* background-color:rgb(0, 168, 50); */
   display: flex;
   justify-content: end;
+  overflow-x: hidden;
+  
 }
-.nitromain{
-  height:100%;
+.nitromain {
+  height:310vh;
   width: 80%;
   background: #e20d0d;
 }
@@ -90,7 +91,7 @@
 button.gif-nitro-hed:hover {
   background-color:#4c71e8; 
 }
-.cards {
+.nitroocard {
   height: 75vh;
   width: 100%;
   /* background:#7367c0; */
@@ -98,7 +99,7 @@ button.gif-nitro-hed:hover {
   justify-content: space-evenly;
   align-items: center;
 }
-.card {
+.card2 {
   height: 58vh;
   width: 35%;
   background: rgb(128, 135, 157);
@@ -107,14 +108,14 @@ button.gif-nitro-hed:hover {
   color: white;
   list-style-type: none;
 }
-.card span{
+.card2 span{
   font-family: 'Arial', sans-serif; /* Likely font family */
   font-size: 15px; /* Adjust size as needed */
   font-weight: 400; /* Normal weight */
   color: white; /* Text color */
   line-height: 1.5; /* Spacing between lines */
 }
-.card p{
+.card2 p{
   font-family: 'Arial', sans-serif; /* Likely font family */
   font-size: 15px; /* Adjust size as needed */
   font-weight: 400; /* Normal weight */
@@ -161,7 +162,7 @@ button.gif-nitro-hed:hover {
   height: 25px;
   width: 25px;
 }
-.card li {
+.card2 li {
   display: flex;
   align-items: center;
   margin: 6px 0px 0px 30px;
@@ -171,14 +172,14 @@ button.gif-nitro-hed:hover {
   height: 25px;
   width: 25px;
 }
-.card h1 {
+.card2 h1 {
   margin: 6px 0px 0px 40px;
 }
 
-.card h3 {
+.card2 h3 {
   margin: 6px 0px 0px 40px;
 }
-.card p {
+.card2 p {
   margin: 4px 0px 0px 40px;
   font-size:18px;
   line-height: 0.8;
@@ -367,10 +368,11 @@ font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
 .Sticky-button-gif:hover {
 background:rgb(78, 78, 205);
 }
+
 .card-container {
   height: 725px;
   width: 100%;
-  /* background: #dbc3c3; */
+    /* background: #dbc3c3; */
   /* border-radius: 20px; */
   display: flex;
   align-items: center;
@@ -540,6 +542,8 @@ background:rgb(78, 78, 205);
   line-height: 0.8;
   font-weight: 800;
   color:white;
+
+  
 
 }
 
