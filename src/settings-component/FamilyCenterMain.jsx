@@ -15,7 +15,7 @@ const FamilyCenterMain = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='contuiner'>
       {/* Pass the handleMenuClick function to FamilyCenterHeader */}
       <FamilyCenterHeader handleMenuClick={handleMenuClick} />
 
