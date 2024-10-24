@@ -27,6 +27,7 @@ import icon22 from '/src/assets/settings-images/icon22.png'
 import icon23 from '/src/assets/settings-images/icon23.png'
 import screen from '/src/assets/settings-images/screen.png'
 import { useState } from 'react';
+import Esc from './Esc';
 
 function Apperiance() {
   const [theme, setTheme] = useState('light'); 
@@ -71,8 +72,8 @@ const handleChange = (e) => {
     <div className='Apperiancefirst'>
       <div className='Apperiancesecond'>
         <h2>Appearance</h2>
-        <button id='apperiancebutton'>×</button>
-        <h6>ESC</h6>
+        {/* <button id='apperiancebutton'>×</button>
+        <h6>ESC</h6> */}
         <div className="apperiancebox">
           <img src={Apperiancebox} alt="" />
         </div>
@@ -188,6 +189,8 @@ const handleChange = (e) => {
           <div className="apperiance_last_p">
           <p>Can’t find what you’re looking for? Check out the <a href="">Accessibility</a> settings.</p></div>
       </div>
+
+      <Esc/>
     </div>
   );
 }
