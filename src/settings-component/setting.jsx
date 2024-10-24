@@ -9,9 +9,11 @@ import Devices from './Devices'
 import Authorized from './Authorized'
 import FamilyCenter from './FamilyCenterMain'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ServerBooster from './ServerBooster'
 // import ServerBooster from './ServerBooster'
 // import FamilyCenterMain from './component/FamilyCenterMain'
 
+import'./settings_index.css'
 function Settings() {
   const [activeComponentMain, setActiveComponentMain] = useState('TabsTwo');
 
@@ -29,14 +31,15 @@ function Settings() {
 
     </div>
     <div className="tabs-two">
-      {activeComponentMain === 'TabsTwo' && <Tabstwo/>}
+      {/* {activeComponentMain === 'TabsTwo' && <Tabstwo/>}
       {activeComponentMain === 'friend-request' && <Friendsrequest/>}
       {activeComponentMain === 'Family-Center' && <FamilyCenter/>}
       {activeComponentMain === 'Authorized' && <Authorized/>}
       {activeComponentMain === 'Devices' && <Devices/>}
       {activeComponentMain === 'Clips' && <Clips/>}
       {activeComponentMain === 'Connection' && <Conection/>}
-      {activeComponentMain === 'Server-Boosts' && <ServerBooster/>}
+      {activeComponentMain === 'Server-Boosts' && <ServerBooster/>} */}
+      <ServerBooster/>
       {/* <Conection/> */}
       {/* <ServerBooster/> */}
     </div>
