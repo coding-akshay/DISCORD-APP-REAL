@@ -25,7 +25,7 @@ function Menubar(){
            <Link  style={{ textDecoration: 'none' }} to={'/shop'}> <li className="menubar_item"><img className="img3" src={shop} alt="" />Shop</li></Link> 
         </ul>
         <div className="message">
-            <li className='message_item1'>DIRECT  MESSAGES <img className='img5' src={plus} alt="" /></li> 
+            <li className='message_item1'>DIRECT  MESSAGES <div className='plusdm'>+</div></li> 
             <li className='message_item2'><div className='circle'><img className='img6' src={blogo} alt="" /></div>Noushida</li>
             <li className='message_item2'><div className='circle'><img className='img6' src={rlogo} alt="" /></div>Aparna</li>
             <li className='message_item2'><div className='circle'><img className='img6' src={glogo} alt="" /></div>Shibly</li>
