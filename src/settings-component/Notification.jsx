@@ -100,75 +100,75 @@ function Notification() {
       <div className="enablesame_first">
         <p>Your existing notification sound settings will be preserved.</p>
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Message</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Deafen</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Undeafen</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Mute</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Unmute</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Voice Disconnected</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>PTT Activate</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>User Join</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Outgoing Ring</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Incoming Ring</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Stream Started</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Viewer Join</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Viewer Leave</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Activity Start</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Activity End</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Activity User Join</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Activity User Leave</h3>
       <img src={screen2} alt="" />
       </div>
-      <div className="message">
+      <div className="Pinmessage">
       <h3>Invited to Speak</h3>
       <img src={screen2} alt="" />
       </div>
