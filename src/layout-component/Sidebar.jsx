@@ -55,9 +55,11 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <ul className="sidebar_items">
+        <Link to={'/'}>
         <li className="sidebar_item1">
           <img className="img" src={logo} alt="" />
         </li>
+      </Link>
         <li className="sidebar_item2">
           <img className="img1" src={serverlogo} alt=""  />
         </li>
