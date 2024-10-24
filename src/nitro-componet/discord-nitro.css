@@ -10,11 +10,11 @@
 }
 .nitromain {
   height:310vh;
-  width: 80%;
-  background: #e20d0d;
+  width: 100%;
+  /* background: #e20d0d; */
 }
-.Navbar {
-  height: 6.5vh;
+.Navbar_nitro{
+  height: 7%;
   width: 100%;
   background-color: rgb(47, 49, 53);
   display: flex;
@@ -22,7 +22,7 @@
   gap: 8px;
   color: white;
   font-family: inherit;
-  position: sticky;
+  position: fixed;
   top: 0;
   
 }
@@ -44,6 +44,7 @@
   justify-content: center;
   flex-direction: column;
   color: white;
+  padding-top: 4%;
   /* text-align: center; */
   /* background: #000; */
 }

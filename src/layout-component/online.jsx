@@ -60,7 +60,7 @@ export default function Online() {
                    <div className='section1'>
                 <img className='img6' src={rlogo} alt="" /> 
                   <div>
-                    <p>Aparna</p> 
+                    <p className='txt1'>Aparna</p> 
                     <p  className='text2'>online</p>
                     </div> 
                    </div>

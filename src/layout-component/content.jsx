@@ -8,9 +8,9 @@ import Inbox from '../modal-component/Inbox';
 import Gm from '../modal-component/Gm';
 import '/src/modal-component/modal.css'
 import Online from './online';
-// import All from './all';
-// import Blocked from './blocked';
-// import Pending from './pending';
+import All from './all';
+import Blocked from './blocked';
+import Pending from './pending';
 // import Modal from '../modal-component/modal';
 // import Gm from '../modal-component/Gm';
 function Friends() {
@@ -20,6 +20,10 @@ function Friends() {
   const [openDownloadApp, setOpenDownloadApp] = useState(false);
   const [openProfileBar, setOpenProfileBar] = useState(false);
 
+  const [activeComponent, setActiveComponent] = useState('online');
+  const handleclick = (component) => {
+    setActiveComponent(component);
+  };
   // Refs to track the DM and Inbox modals
   const dmRef = useRef(null);
   const inboxRef = useRef(null);
@@ -63,10 +67,10 @@ function Friends() {
       <div className="navbar">
         <div className="navbar_left">
           <li className="navbar_left_item1"><img className="img2" src={friend} alt="" />Friends</li>
-          <Link style={{ textDecoration: 'none' }} to={'/'}><li className="navbar_left_item2">Online</li></Link>
-          <Link style={{ textDecoration: 'none' }} to={'/all'}> <li className="navbar_left_item2">All</li></Link>
-          <Link style={{ textDecoration: 'none' }} to={'/pending'}><li className="navbar_left_item2">Pending</li></Link>
-          <Link style={{ textDecoration: 'none' }} to={'/blocked'}><li className="navbar_left_item2">Blocked</li></Link>
+         <li onClick={ () => handleclick('online')} className="navbar_left_item2">Online</li>
+           <li onClick={ () => handleclick('all')} className="navbar_left_item2">All</li>
+         <li onClick={ () => handleclick('pending')} className="navbar_left_item2">Pending</li>
+          <li onClick={ () => handleclick('blocked')} className="navbar_left_item2">Blocked</li>
           <li className='navbar_left_item3'>Add friend</li>
           <li></li>
         </div>
@@ -77,8 +81,20 @@ function Friends() {
           {openInbox && <div ref={inboxRef}><Inbox /></div>}
         <Link to={'/help'}><li><img className="img3" src={help} alt="" /></li></Link> 
         </div>
-      </div>  
-       <Online />
+      </div> 
+       {
+        activeComponent=== 'online' && <Online />
+       } 
+       {
+        activeComponent=== 'all' && <All />
+       } 
+       {
+        activeComponent=== 'pending' && <Pending />
+       } 
+       {
+        activeComponent=== 'blocked' && <Blocked />
+       } 
+       
     </div>
   )
 }
