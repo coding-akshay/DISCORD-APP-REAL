@@ -31,15 +31,15 @@ function Settings() {
 
     </div>
     <div className="tabs-two">
-      {/* {activeComponentMain === 'TabsTwo' && <Tabstwo/>}
+      {activeComponentMain === 'TabsTwo' && <Tabstwo/>}
       {activeComponentMain === 'friend-request' && <Friendsrequest/>}
       {activeComponentMain === 'Family-Center' && <FamilyCenter/>}
       {activeComponentMain === 'Authorized' && <Authorized/>}
       {activeComponentMain === 'Devices' && <Devices/>}
       {activeComponentMain === 'Clips' && <Clips/>}
       {activeComponentMain === 'Connection' && <Conection/>}
-      {activeComponentMain === 'Server-Boosts' && <ServerBooster/>} */}
-      <ServerBooster/>
+      {activeComponentMain === 'Server-Boosts' && <ServerBooster/>}
+
       {/* <Conection/> */}
       {/* <ServerBooster/> */}
     </div>
