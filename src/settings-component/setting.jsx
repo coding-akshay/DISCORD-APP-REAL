@@ -40,8 +40,6 @@ function Settings() {
       {activeComponentMain === 'Connection' && <Conection/>}
       {activeComponentMain === 'Server-Boosts' && <ServerBooster/>}
 
-      {/* <Conection/> */}
-      {/* <ServerBooster/> */}
     </div>
    </div>
 
