@@ -280,7 +280,7 @@ text-align: start;
   }
   
   li span {
-    background-color: #37537d;
+    /* background-color: #37537d; */
     color: white;
     border-radius: 50%;
     padding: 10px 15px;
