@@ -11,7 +11,7 @@ const FamilyCenterBody1 = () => {
                 <p>We built Family Center to provide you with more context on <br /> how your teen uses Discord so you can work together on <br /> building positive online behaviors. <span>Learn more..</span></p>
                 <button>Get Started</button>
                 <div className="intro-box-pic">
-                <img src="DISCORD-APP-REAL/src/assets/Settings-images/asees.svg" alt="Intro Image"/>
+                <img src="src/assets/Settings-images/asees.svg" alt="Intro Image"/>
                 </div>
               </div>
                 </div>

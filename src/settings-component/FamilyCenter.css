@@ -1,18 +1,6 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #2C2F33;
-    color: #FFF;
-    font-family: 'gg sans', 'Arial', sans-serif;
-  } */
-  
+
   .contuiner {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     max-width: 1200px;
   }
@@ -29,7 +17,6 @@ ul.nav {
     padding: 0;
     /* background-color: #2C2F33; */
   }
-  
   .nav-item {
     margin-right: 20px;
     padding: 10px;
@@ -62,6 +49,8 @@ ul.nav {
 
   header {
     padding: 20px 0;
+    width: 400px;
+    height: 40px;
   }
   
   nav ul {
@@ -86,16 +75,17 @@ ul.nav {
     background-color: #2a2d31;
     padding: 20px;
     border-radius: 8px;
-    position: relative; /* Enable positioning for child elements */
+    position: relative; 
     text-align: left;
-    width: 700px;
-    height: 250px;
+    width: 730px;
+    height: 250px; 
   }
   
   .intro-box h1 {
     font-size: 24px;
     margin-bottom: 10px;
     font-weight: 500;
+    color: #FFF;
   }
   
   .intro-box p {
@@ -131,7 +121,7 @@ oklab(0.686679 -0.00398019 -0.0150182)
     width: 200px; /* Adjust the size of the image */
     position: absolute;
     top: 50%;
-    right: 20px; /* Move the image to the right side */
+    right: 20px; 
     transform: translateY(-50%); /* Vertically center the image */
   }
   
@@ -140,7 +130,7 @@ oklab(0.686679 -0.00398019 -0.0150182)
     /* justify-content: space-between; */
     gap: 19px;
     margin-top: 10px;
-    width: 1000px;
+    width: 860px;
     height: 250px;
   }
   
@@ -182,6 +172,10 @@ oklab(0.686679 -0.00398019 -0.0150182);
 text-align: start;
   }
 
+
+/* --------------------------------------------------------- */
+
+  
   .info-box {
     background-color: #2a2d31;
     padding: 20px;
@@ -244,67 +238,71 @@ text-align: start;
     font-weight: bold;
     color: #fff;
   }
+  .discord-info {
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #23272a;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px 0px 0px 50px;
+  }
   
-
-.discord-info {
-  width: 700px;
-  height: 450px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  background-color: #23272a;
-  border-radius: 10px;
-  padding: 20px;
-  box-sizing: border-box;
-  margin: 20px 0px 0px 50px;
-}
-
-.content {
-  width: 60%;
-  color: #ffffff;
-  font-family: Arial, sans-serif;
-}
-
-.content h1 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.content p {
-  font-size: 14px;
-  margin-bottom: 15px;
-}
-
-.content ul {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 40px;
-}
-
-.content ul li {
-  font-size: 13px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-}
-
-.image-container {
-  width: 35%;
-}
-
-.image-container img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-li span{
-  background-color: #37537d;
-  border-radius: 90px;
-  padding: 15px;
-   margin-bottom: -30px;
-}
-li p{
-  margin-left: 50px;
-}
+  .content {
+    width: 60%;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .content ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 40px;
+  }
+  
+  .content ul li {
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  li span {
+    background-color: #37537d;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  li p {
+    margin-left: 40px;
+  }
+  
+  .image-container {
+    width: 35%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
 
 /* //////////////////////////////////////////////////////// */
 
