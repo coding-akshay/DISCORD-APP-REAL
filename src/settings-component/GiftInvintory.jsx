@@ -1,6 +1,6 @@
 import React from 'react'
-import giftbox from '../src/assets/settings-images/giftboximg.jpg'
-import giftbox2 from '../src/assets/settings-images/giftbox2.png'
+import giftbox from '/src/assets/settings-images/giftboximg.jpg'
+import giftbox2 from '/src/assets/settings-images/giftbox2.png'
 function GiftInvintory() {
   return (
    <div className="giftfirst">

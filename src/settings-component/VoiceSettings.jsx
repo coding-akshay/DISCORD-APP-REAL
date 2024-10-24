@@ -1,11 +1,11 @@
 import React from 'react'
 import VoiceSlider from './voiceslider'
-import lets from '../src/assets/settings-images/lets1.png'
-import camera from '../src/assets/settings-images/camera.png'
-import screen3 from '../src/assets/settings-images/screen3.png'
-import screen2 from '../src/assets/settings-images/screen2.png'
-import opus from '../src/assets/settings-images/opus.png'
-import advancedbox from '../src/assets/settings-images/advancedbox.png'
+import lets from '/src/assets/settings-images/lets1.png'
+import camera from '/src/assets/settings-images/camera.png'
+import screen3 from '/src/assets/settings-images/screen3.png'
+import screen2 from '/src/assets/settings-images/screen2.png'
+import opus from '/src/assets/settings-images/opus.png'
+import advancedbox from '/src/assets/settings-images/advancedbox.png'
 import VoiceInputeSlider from './VoiceInputeSlider';  // Corrected the file path
 
 function VoiceSettings() {

@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
-import unlock from '../src/assets/settings-images/unlock.png';
-import card from '../src/assets/settings-images/card.png'
-import paypal from '../src/assets/settings-images/paypal.png'
-import debitcard from'../src/assets/settings-images/debitcard.png'
-import visacard from'../src/assets/settings-images/visacard.png'
-import discover from '../src/assets/settings-images/discover.png'
-import master from'../src/assets/settings-images/mastercaed.png'
+import unlock from '/src/assets/settings-images/unlock.png';
+import card from '/src/assets/settings-images/card.png'
+import paypal from '/src/assets/settings-images/paypal.png'
+import debitcard from'/src/assets/settings-images/debitcard.png'
+import visacard from'/src/assets/settings-images/visacard.png'
+import discover from '/src/assets/settings-images/discover.png'
+import master from'/src/assets/settings-images/mastercaed.png'
 import PostBox from './PostBox';
 // import { PostBox } from './PostBox'; // Use destructuring to import named exports
 

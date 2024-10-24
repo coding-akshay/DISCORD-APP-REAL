@@ -1,7 +1,7 @@
 import React from 'react'
-import streamermodeimg from '../src/assets/settings-images/streamermodeimg.png'
-  import screen3 from '../src/assets/settings-images/screen3.png'
-  import screen2 from '../src/assets/settings-images/screen2.png'
+import streamermodeimg from '/src/assets/settings-images/streamermodeimg.png'
+  import screen3 from '/src/assets/settings-images/screen3.png'
+  import screen2 from '/src/assets/settings-images/screen2.png'
 function StremerMode() {
   return (
     <div className='streamermode_first'>

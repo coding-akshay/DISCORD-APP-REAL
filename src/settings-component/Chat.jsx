@@ -1,6 +1,6 @@
 import React from 'react'
- import screen3 from '../src/assets/settings-images/screen3.png'
- import screen2 from '../src/assets/settings-images/screen2.png'
+ import screen3 from '/src/assets/settings-images/screen3.png'
+ import screen2 from '/src/assets/settings-images/screen2.png'
 function Chat() {
   return (
     <div className='chat_first'>

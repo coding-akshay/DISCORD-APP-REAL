@@ -1,5 +1,5 @@
 import React from 'react'
-  import screen3 from '../src/assets/settings-images/screen3.png'
+  import screen3 from '/src/assets/settings-images/screen3.png'
 function Advanced() {
   return (
    <div className="advanced_01">

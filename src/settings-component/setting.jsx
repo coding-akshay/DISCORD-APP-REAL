@@ -11,7 +11,19 @@ import FamilyCenter from './FamilyCenterMain'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ServerBooster from './ServerBooster'
 // import ServerBooster from './ServerBooster'
+// import Subscription from './Subscription'
 // import FamilyCenterMain from './component/FamilyCenterMain'
+// import GiftInvintory from './GiftInvintory'
+// import Billing from './Billing'
+  //  import Apperiance from './apperiance'
+  // import Accessibilit from './Accessibility'
+    // import VoiceSettings from './VoiceSettings'
+      //  import Chat from './Chat'
+        // import Notification from './Notification'
+        //  import Keybinds from './Keybinds'
+        // import Language from './Language'
+        // import StremerMode from './StremerMode'
+        // import Advanced from './Advanced'
 
 import'./settings_index.css'
 function Settings() {
@@ -40,6 +52,8 @@ function Settings() {
       {activeComponentMain === 'Connection' && <Conection/>}
       {activeComponentMain === 'Server-Boosts' && <ServerBooster/>}
 
+
+     
     </div>
    </div>
 
