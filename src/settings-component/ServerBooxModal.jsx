@@ -3,11 +3,13 @@
 
 import React from 'react';
 
-import severboostermodalimg from '../src/assets/settings-images/severboostermodalimg.png';
+import severboostermodalimg from '/src/assets/settings-images/severboostermodalimg.png';
 
-import severboostermodalimg1 from '../src/assets/settings-images/severboostermodalimg1.png';
+import severboostermodalimg1 from '/src/assets/settings-images/severboostermodalimg1.png';
 
-import serverbosterimg3 from '../src/assets/settings-images/serverbosterimg3.png';
+import serverbosterimg3 from '/src/assets/settings-images/serverbosterimg3.png';
+
+
 
 function ServerBooxModal({ Ismodalopen, togglemodal }) {
   return (

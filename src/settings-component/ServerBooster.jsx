@@ -4,11 +4,10 @@
 import React, { useState } from 'react';
 import ServerBooxModal from './ServerBooxModal';
 
-import serverbosterimg from 'src/assets/Settings-images/serverbosterimg.png';
-import serverbooster1 from 'src/assets/settings-images/serverbooster1.png';
-import serverbosterimg4 from 'src/assets/settings-images/serverbosterimg4.png';
-
-import serverboster5 from 'src/assets/settings-images/serverboster5.png';
+import serverbosterimg from '/src/assets/settings-images/serverbosterimg.png';
+import serverbooster1 from '/src/assets/settings-images/serverbooster1.png';
+import serverbosterimg4 from '/src/assets/settings-images/serverbosterimg4.png';
+import serverboster5 from '/src/assets/settings-images/serverboster5.png';
 
 function ServerBooster() {
   const [Ismodalopen, Setismodalopen] = useState(false);
