@@ -30,6 +30,7 @@ import China from '/src/assets/settings-images/China.png'
 import Japanese from '/src/assets/settings-images/Japanese.png'
 import Chinese from '/src/assets/settings-images/Chinese.png'
 import Korean from '/src/assets/settings-images/Korean.png'
+import Esc from './Esc'
 
 
 
@@ -71,8 +72,9 @@ function Language() {
   return (
     <div   className='language_01'>
       <div className="language_02">
-         <button>×</button>
-        <h6>ESC</h6>
+         {/* <button>×</button>
+        <h6>ESC</h6> */}
+        <Esc/>
       </div>
       <div className="language_03">
         <h3>Language</h3>

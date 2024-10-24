@@ -6,6 +6,7 @@ import Screen2 from '/src/assets/settings-images/Screen2.png'
 // import AccessiBilityslider from'./Accessibility.jsx'
 
 import Chatbox_Inpusecond_component from './Chatbox_Inpusecond_component'
+import Esc from './Esc'
 
 // import Toggle from './Toggle'
 
@@ -15,8 +16,9 @@ function Accessibility() {
   return (
    <div className="Accessibilit_First">
     <div className="Accessibilit_Second">
-    <button id='accessibilitbutton'>×</button>
-        <h6>ESC</h6>
+    {/* <button id='accessibilitbutton'>×</button>
+        <h6>ESC</h6> */}
+        <Esc/>
         <h1>Accessibilit</h1>
         <div className="Accessibilit_third">
             <div className="Accessibilit_third_button">
