@@ -1,5 +1,5 @@
 import React from 'react'
-import box from '../src/assets/settings-images/box.png'
+import box from '/src/assets/settings-images/box.png'
 
 function Subscription() {
   return (

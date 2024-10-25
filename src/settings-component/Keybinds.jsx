@@ -1,5 +1,5 @@
 import React from 'react'
-import keybindsimg from '../src/assets/settings-images/keybindsimg.png'
+import keybindsimg from '/src/assets/settings-images/keybindsimg.png'
 function Keybinds() {
   return (
    <div className="keybinds_first">

@@ -50,7 +50,7 @@ function ServerBooster() {
       </div>
       <div className="serverbooster_fifth">
         <div className="serverbooster_5_5">
-          <img src={serverbooster1} alt="" /> {/* Corrected image reference */}
+          <img src={serverbooster1} alt="" /> 
         </div>
         <div className="serverbooster_5_6">
           <button onClick={togglemodal}>Boost this server</button>

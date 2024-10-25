@@ -1,8 +1,8 @@
 import React from 'react'
-import Accessibilityimg from '../src/assets/settings-images/Accessibilityimg.png'
-import accessibileimg2 from '../src/assets/settings-images/accessibileimg2.png'
-import Screen3 from '../src/assets/settings-images/Screen3.png'
-import Screen2 from '../src/assets/settings-images/Screen2.png'
+import Accessibilityimg from '/src/assets/settings-images/Accessibilityimg.png'
+import accessibileimg2 from '/src/assets/settings-images/accessibileimg2.png'
+import Screen3 from '/src/assets/settings-images/Screen3.png'
+import Screen2 from '/src/assets/settings-images/Screen2.png'
 // import AccessiBilityslider from'./Accessibility.jsx'
 
 import Chatbox_Inpusecond_component from './Chatbox_Inpusecond_component'
