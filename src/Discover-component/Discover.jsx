@@ -11,9 +11,9 @@ import ServerCards from './Official-cards'
 function Discover() {
 
   const cardDetails =[
-    {title:"dargonaballz"},
-    {title:"arcade"},
-    {title:"messiah"}
+    {title:"dargonaballz",online:'234542',offline:243576},
+    {title:"arcade",online:"123432",offline:243576},
+    {title:"messiah",online:'465755',offline:243576},
   ]
   
   
@@ -27,13 +27,19 @@ function Discover() {
           
         </div>
          <img src="src\assets\Discover-images\communtity.png" alt="" className='community-pic'/>
+
          <div className="server-cards">
-          {cardDetails.map((card,index)=>{
-            <ServerCards title={card.title} />
-            console.log(card.title);
+
+          {cardDetails.map((card,index)=>{ 
+            return <ServerCards key={index} title={card.title} online={card.online} offline={card.offline}/>
             
             
           })}
+               {/* {cardDetails.map((card, index) => {
+                return <ServerCards key={index} title={card.title} />;
+            })} */}
+     
+
           
          </div>
         <h1>its loading..... Be patient</h1>
