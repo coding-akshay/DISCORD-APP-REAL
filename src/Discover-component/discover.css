@@ -52,7 +52,7 @@
     display: flex;
     position: fixed;
     border-bottom: 1px solid black;
-    height: 15vh;
+    height: 10vh;
 }
 .navbar-buttons{
     width: 65%;
@@ -61,12 +61,38 @@
     place-items: center;
     
 }
+.b1{
+    color: whitesmoke;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.b1:hover{
+    border-bottom: 1px solid white;
+}
 .input-field{
     background-color: #2b2d31;
-    height: 10vh;
+    height: 40px;
 }
 .community-pic{
     width: 100%;
-    height: 30vh;
+    /* height: 30vh; */
 }
+.blue{
+    width: 100%;
+    background:linear-gradient(to right,#214589,#0d0c34);
+    /* background-color: blue; */
+    height: 20vh;
+}
+.server-cards{
+    width: 80vw;
+    background-color: #313338;
+    display: grid;
+    /* grid-gap: 20px; */
+    
 
+}
+.cards30{
+    width: 200px;
+    height: 300px;
+    background-color: #28292e;
+}
