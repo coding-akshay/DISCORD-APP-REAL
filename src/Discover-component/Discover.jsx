@@ -3,7 +3,7 @@ import Sidebar from '../layout-component/Sidebar'
 import '../Discover-component/discover.css'
 import ServerOptions from './ServerOptions'
 import DiscoverNavbar from './Discover-navbar'
-import { community } from '../assets/Discover-images/community.png';
+
 
 
 
@@ -14,7 +14,7 @@ function Discover() {
       <ServerOptions/>
       <div className='game-servers'>
         <DiscoverNavbar/>
-        <img src='src/assets/help-images/community.png' alt='it will be here' className='community-pic'/>
+         <img src="src\assets\Discover-images\community.png" alt="" />
         <h1>its loading..... Be patient</h1>
       </div>
     </div>
