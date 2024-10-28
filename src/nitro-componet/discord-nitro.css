@@ -166,7 +166,7 @@ button.gif-nitro-hed:hover {
 .card2 li {
   display: flex;
   align-items: center;
-  margin: 6px 0px 0px 30px;
+  margin: -0px 0px 0px 30px;
   gap: 5px;
 }
 .tv {
@@ -189,8 +189,7 @@ button.gif-nitro-hed:hover {
 .card1 li {
   display: flex;
   align-items: center;
-  margin: 6px 0px 0px 30px;
-
+  margin: -13px 0px 0px 30px;
   gap: 5px;
 }
 .card1 h1 {
@@ -208,11 +207,13 @@ button.gif-nitro-hed:hover {
   font-size:18px;
   line-height: 0.8;
   font-weight:800;
+  margin: 4px 0px 0px 40px;
+
 }
 .sectionone {
   height: 40px;
   width: 93%;
-  margin: 120px 0px 0px 15px;
+  margin:40px 0px 0px 15px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -222,7 +223,7 @@ button.gif-nitro-hed:hover {
 .sectiontwo {
   height: 40px;
   width: 93%;
-  margin: 67px 0px 0px 15px;
+  margin:30px 0px 0px 15px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
